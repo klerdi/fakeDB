@@ -1,180 +1,195 @@
 {
-"leads": [
-  {
+"leads": {
+  "success": true,
+  "message": "Successfully obtained a list of leads!",
+  "info": null,
+  "warnings": null,
+  "data": [
+    {
     "id": 1,
     "name": "John Doe",
     "email": "john.doe@example.com",
     "phone": "123-456-7890",
     "company": "ABC Corp"
   },
-  {
-    "id": 2,
-    "name": "Jane Smith",
-    "email": "jane.smith@example.com",
-    "phone": "234-567-8901",
-    "company": "XYZ Inc"
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "email": "jane.smith@example.com",
+      "phone": "234-567-8901",
+      "company": "XYZ Inc"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "email": "alice.johnson@example.com",
+      "phone": "345-678-9012",
+      "company": "Tech Solutions"
+    },
+    {
+      "id": 4,
+      "name": "Bob Brown",
+      "email": "bob.brown@example.com",
+      "phone": "456-789-0123",
+      "company": "Innovatech"
+    },
+    {
+      "id": 5,
+      "name": "Charlie Davis",
+      "email": "charlie.davis@example.com",
+      "phone": "567-890-1234",
+      "company": "Global Ventures"
+    },
+    {
+      "id": 6,
+      "name": "Diana Evans",
+      "email": "diana.evans@example.com",
+      "phone": "678-901-2345",
+      "company": "Smart Solutions"
+    },
+    {
+      "id": 7,
+      "name": "Ethan Foster",
+      "email": "ethan.foster@example.com",
+      "phone": "789-012-3456",
+      "company": "NextGen Technologies"
+    },
+    {
+      "id": 8,
+      "name": "Fiona Green",
+      "email": "fiona.green@example.com",
+      "phone": "890-123-4567",
+      "company": "Prime Innovations"
+    },
+    {
+      "id": 9,
+      "name": "George Harris",
+      "email": "george.harris@example.com",
+      "phone": "901-234-5678",
+      "company": "Alpha Tech"
+    },
+    {
+      "id": 10,
+      "name": "Hannah Ingram",
+      "email": "hannah.ingram@example.com",
+      "phone": "012-345-6789",
+      "company": "Beta Enterprises"
+    },
+    {
+      "id": 11,
+      "name": "Ian Jones",
+      "email": "ian.jones@example.com",
+      "phone": "123-456-7891",
+      "company": "Gamma Corp"
+    },
+    {
+      "id": 12,
+      "name": "Julia King",
+      "email": "julia.king@example.com",
+      "phone": "234-567-8902",
+      "company": "Delta Innovations"
+    },
+    {
+      "id": 13,
+      "name": "Kevin Lewis",
+      "email": "kevin.lewis@example.com",
+      "phone": "345-678-9013",
+      "company": "Epsilon Solutions"
+    },
+    {
+      "id": 14,
+      "name": "Lily Martin",
+      "email": "lily.martin@example.com",
+      "phone": "456-789-0124",
+      "company": "Zeta Ventures"
+    },
+    {
+      "id": 15,
+      "name": "Michael Nelson",
+      "email": "michael.nelson@example.com",
+      "phone": "567-890-1235",
+      "company": "Theta Tech"
+    },
+    {
+      "id": 16,
+      "name": "Nina O'Connor",
+      "email": "nina.oconnor@example.com",
+      "phone": "678-901-2346",
+      "company": "Iota Innovations"
+    },
+    {
+      "id": 17,
+      "name": "Oscar Parker",
+      "email": "oscar.parker@example.com",
+      "phone": "789-012-3457",
+      "company": "Kappa Solutions"
+    },
+    {
+      "id": 18,
+      "name": "Paula Quinn",
+      "email": "paula.quinn@example.com",
+      "phone": "890-123-4568",
+      "company": "Lambda Enterprises"
+    },
+    {
+      "id": 19,
+      "name": "Quinn Roberts",
+      "email": "quinn.roberts@example.com",
+      "phone": "901-234-5679",
+      "company": "Mu Tech"
+    },
+    {
+      "id": 20,
+      "name": "Rachel Scott",
+      "email": "rachel.scott@example.com",
+      "phone": "012-345-6790",
+      "company": "Nu Innovations"
+    },
+    {
+      "id": 21,
+      "name": "Samuel Turner",
+      "email": "samuel.turner@example.com",
+      "phone": "123-456-7892",
+      "company": "Xi Solutions"
+    },
+    {
+      "id": 22,
+      "name": "Tina Underwood",
+      "email": "tina.underwood@example.com",
+      "phone": "234-567-8903",
+      "company": "Omicron Corp"
+    },
+    {
+      "id": 23,
+      "name": "Uma Vance",
+      "email": "uma.vance@example.com",
+      "phone": "345-678-9014",
+      "company": "Pi Innovations"
+    },
+    {
+      "id": 24,
+      "name": "Victor White",
+      "email": "victor.white@example.com",
+      "phone": "456-789-0125",
+      "company": "Rho Solutions"
+    },
+    {
+      "id": 25,
+      "name": "Wendy Xiong",
+      "email": "wendy.xiong@example.com",
+      "phone": "567-890-1236",
+      "company": "Sigma Ventures"
+    }
+  ],
+  "meta": {
+    "current_page": 1,
+    "from": 1,
+    "to": 10,
+    "path": "",
+    "per_page": 10,
+    "total": 25
   },
-  {
-    "id": 3,
-    "name": "Alice Johnson",
-    "email": "alice.johnson@example.com",
-    "phone": "345-678-9012",
-    "company": "Tech Solutions"
-  },
-  {
-    "id": 4,
-    "name": "Bob Brown",
-    "email": "bob.brown@example.com",
-    "phone": "456-789-0123",
-    "company": "Innovatech"
-  },
-  {
-    "id": 5,
-    "name": "Charlie Davis",
-    "email": "charlie.davis@example.com",
-    "phone": "567-890-1234",
-    "company": "Global Ventures"
-  },
-  {
-    "id": 6,
-    "name": "Diana Evans",
-    "email": "diana.evans@example.com",
-    "phone": "678-901-2345",
-    "company": "Smart Solutions"
-  },
-  {
-    "id": 7,
-    "name": "Ethan Foster",
-    "email": "ethan.foster@example.com",
-    "phone": "789-012-3456",
-    "company": "NextGen Technologies"
-  },
-  {
-    "id": 8,
-    "name": "Fiona Green",
-    "email": "fiona.green@example.com",
-    "phone": "890-123-4567",
-    "company": "Prime Innovations"
-  },
-  {
-    "id": 9,
-    "name": "George Harris",
-    "email": "george.harris@example.com",
-    "phone": "901-234-5678",
-    "company": "Alpha Tech"
-  },
-  {
-    "id": 10,
-    "name": "Hannah Ingram",
-    "email": "hannah.ingram@example.com",
-    "phone": "012-345-6789",
-    "company": "Beta Enterprises"
-  },
-  {
-    "id": 11,
-    "name": "Ian Jones",
-    "email": "ian.jones@example.com",
-    "phone": "123-456-7891",
-    "company": "Gamma Corp"
-  },
-  {
-    "id": 12,
-    "name": "Julia King",
-    "email": "julia.king@example.com",
-    "phone": "234-567-8902",
-    "company": "Delta Innovations"
-  },
-  {
-    "id": 13,
-    "name": "Kevin Lewis",
-    "email": "kevin.lewis@example.com",
-    "phone": "345-678-9013",
-    "company": "Epsilon Solutions"
-  },
-  {
-    "id": 14,
-    "name": "Lily Martin",
-    "email": "lily.martin@example.com",
-    "phone": "456-789-0124",
-    "company": "Zeta Ventures"
-  },
-  {
-    "id": 15,
-    "name": "Michael Nelson",
-    "email": "michael.nelson@example.com",
-    "phone": "567-890-1235",
-    "company": "Theta Tech"
-  },
-  {
-    "id": 16,
-    "name": "Nina O'Connor",
-    "email": "nina.oconnor@example.com",
-    "phone": "678-901-2346",
-    "company": "Iota Innovations"
-  },
-  {
-    "id": 17,
-    "name": "Oscar Parker",
-    "email": "oscar.parker@example.com",
-    "phone": "789-012-3457",
-    "company": "Kappa Solutions"
-  },
-  {
-    "id": 18,
-    "name": "Paula Quinn",
-    "email": "paula.quinn@example.com",
-    "phone": "890-123-4568",
-    "company": "Lambda Enterprises"
-  },
-  {
-    "id": 19,
-    "name": "Quinn Roberts",
-    "email": "quinn.roberts@example.com",
-    "phone": "901-234-5679",
-    "company": "Mu Tech"
-  },
-  {
-    "id": 20,
-    "name": "Rachel Scott",
-    "email": "rachel.scott@example.com",
-    "phone": "012-345-6790",
-    "company": "Nu Innovations"
-  },
-  {
-    "id": 21,
-    "name": "Samuel Turner",
-    "email": "samuel.turner@example.com",
-    "phone": "123-456-7892",
-    "company": "Xi Solutions"
-  },
-  {
-    "id": 22,
-    "name": "Tina Underwood",
-    "email": "tina.underwood@example.com",
-    "phone": "234-567-8903",
-    "company": "Omicron Corp"
-  },
-  {
-    "id": 23,
-    "name": "Uma Vance",
-    "email": "uma.vance@example.com",
-    "phone": "345-678-9014",
-    "company": "Pi Innovations"
-  },
-  {
-    "id": 24,
-    "name": "Victor White",
-    "email": "victor.white@example.com",
-    "phone": "456-789-0125",
-    "company": "Rho Solutions"
-  },
-  {
-    "id": 25,
-    "name": "Wendy Xiong",
-    "email": "wendy.xiong@example.com",
-    "phone": "567-890-1236",
-    "company": "Sigma Ventures"
-  }
-]
+  "code": 200
+}
 
 }
