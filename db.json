@@ -174,41 +174,6 @@
     "email": "wendy.xiong@example.com",
     "phone": "567-890-1236",
     "company": "Sigma Ventures"
-  },
-  {
-    "id": 26,
-    "name": "Xander Young",
-    "email": "xander.young@example.com",
-    "phone": "678-901-2347",
-    "company": "Tau Tech"
-  },
-  {
-    "id": 27,
-    "name": "Yara Zane",
-    "email": "yara.zane@example.com",
-    "phone": "789-012-3458",
-    "company": "Upsilon Innovations"
-  },
-  {
-    "id": 28,
-    "name": "Zachary Allen",
-    "email": "zachary.allen@example.com",
-    "phone": "890-123-4569",
-    "company": "Phi Solutions"
-  },
-  {
-    "id": 29,
-    "name": "Amber Brooks",
-    "email": "amber.brooks@example.com",
-    "phone": "901-234-5680",
-    "company": "Chi Corp"
-  },
-  {
-    "id": 30,
-    "name": "Brian Campbell",
-    "email": "brian.campbell@example.com",
-    "phone": "012-345-6781",
-    "company": "Psi Innovations"
   }
 ]
 
