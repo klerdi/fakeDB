@@ -1,195 +1,269 @@
 {
-"leads": {
-  "success": true,
-  "message": "Successfully obtained a list of leads!",
-  "info": null,
-  "warnings": null,
-  "data": [
-    {
-    "id": 1,
-    "name": "John Doe",
-    "email": "john.doe@example.com",
-    "phone": "123-456-7890",
-    "company": "ABC Corp"
-  },
-    {
-      "id": 2,
-      "name": "Jaden Smith",
-      "email": "jaden.smith@example.com",
-      "phone": "234-567-8901",
-      "company": "XYZ Inc"
+  "leads": {
+    "success": true,
+    "message": "Successfully obtained a list of leads!",
+    "info": null,
+    "warnings": null,
+    "data": [
+      {
+        "id": 1,
+        "first_name": "Walter",
+        "last_name": "Adams",
+        "email": "walter.adams@example.com",
+        "phone": "123-456-7895",
+        "company": "Omega Tech",
+        "created_at": "2024-05-14",
+        "status": "contacted"
+      },
+      {
+        "id": 2,
+        "first_name": "Yvonne",
+        "last_name": "Brown",
+        "email": "yvonne.brown@example.com",
+        "phone": "234-567-8906",
+        "company": "Alpha Solutions",
+        "created_at": "2024-05-14",
+        "status": "pending"
+      },
+      {
+        "id": 3,
+        "first_name": "Zane",
+        "last_name": "Carter",
+        "email": "zane.carter@example.com",
+        "phone": "345-678-9017",
+        "company": "Beta Enterprises",
+        "created_at": "2024-05-14",
+        "status": "converted"
+      },
+      {
+        "id": 4,
+        "first_name": "Alice",
+        "last_name": "Davidson",
+        "email": "alice.davidson@example.com",
+        "phone": "456-789-0128",
+        "company": "Gamma Innovations",
+        "created_at": "2024-05-14",
+        "status": "lost"
+      },
+      {
+        "id": 5,
+        "first_name": "Brad",
+        "last_name": "Evans",
+        "email": "brad.evans@example.com",
+        "phone": "567-890-1239",
+        "company": "Delta Solutions",
+        "created_at": "2024-05-14",
+        "status": "contacted"
+      },
+      {
+        "id": 6,
+        "first_name": "Cynthia",
+        "last_name": "Flores",
+        "email": "cynthia.flores@example.com",
+        "phone": "678-901-2350",
+        "company": "Epsilon Ventures",
+        "created_at": "2024-05-14",
+        "status": "pending"
+      },
+      {
+        "id": 7,
+        "first_name": "David",
+        "last_name": "Garcia",
+        "email": "david.garcia@example.com",
+        "phone": "789-012-3461",
+        "company": "Zeta Tech",
+        "created_at": "2024-05-14",
+        "status": "converted"
+      },
+      {
+        "id": 8,
+        "first_name": "Erica",
+        "last_name": "Harris",
+        "email": "erica.harris@example.com",
+        "phone": "890-123-4572",
+        "company": "Theta Solutions",
+        "created_at": "2024-05-14",
+        "status": "lost"
+      },
+      {
+        "id": 9,
+        "first_name": "Frankie",
+        "last_name": "Ingram",
+        "email": "frankie.ingram@example.com",
+        "phone": "901-234-5683",
+        "company": "Iota Ventures",
+        "created_at": "2024-05-14",
+        "status": "contacted"
+      },
+      {
+        "id": 10,
+        "first_name": "Grace",
+        "last_name": "Jones",
+        "email": "grace.jones@example.com",
+        "phone": "012-345-6784",
+        "company": "Kappa Innovations",
+        "created_at": "2024-05-14",
+        "status": "pending"
+      },
+      {
+        "id": 11,
+        "first_name": "Henry",
+        "last_name": "King",
+        "email": "henry.king@example.com",
+        "phone": "123-456-7896",
+        "company": "Lambda Solutions",
+        "created_at": "2024-05-14",
+        "status": "converted"
+      },
+      {
+        "id": 12,
+        "first_name": "Isla",
+        "last_name": "Lewis",
+        "email": "isla.lewis@example.com",
+        "phone": "234-567-8907",
+        "company": "Mu Tech",
+        "created_at": "2024-05-14",
+        "status": "lost"
+      },
+      {
+        "id": 13,
+        "first_name": "Jack",
+        "last_name": "Martin",
+        "email": "jack.martin@example.com",
+        "phone": "345-678-9018",
+        "company": "Nu Solutions",
+        "created_at": "2024-05-14",
+        "status": "contacted"
+      },
+      {
+        "id": 14,
+        "first_name": "Kara",
+        "last_name": "Nelson",
+        "email": "kara.nelson@example.com",
+        "phone": "456-789-0129",
+        "company": "Xi Ventures",
+        "created_at": "2024-05-14",
+        "status": "pending"
+      },
+      {
+        "id": 15,
+        "first_name": "Leo",
+        "last_name": "Ortiz",
+        "email": "leo.ortiz@example.com",
+        "phone": "567-890-1240",
+        "company": "Omicron Tech",
+        "created_at": "2024-05-14",
+        "status": "converted"
+      },
+      {
+        "id": 16,
+        "first_name": "Mia",
+        "last_name": "Parker",
+        "email": "mia.parker@example.com",
+        "phone": "678-901-2351",
+        "company": "Pi Solutions",
+        "created_at": "2024-05-14",
+        "status": "lost"
+      },
+      {
+        "id": 17,
+        "first_name": "Nathan",
+        "last_name": "Quinn",
+        "email": "nathan.quinn@example.com",
+        "phone": "789-012-3462",
+        "company": "Rho Innovations",
+        "created_at": "2024-05-14",
+        "status": "contacted"
+      },
+      {
+        "id": 18,
+        "first_name": "Olivia",
+        "last_name": "Roberts",
+        "email": "olivia.roberts@example.com",
+        "phone": "890-123-4573",
+        "company": "Sigma Ventures",
+        "created_at": "2024-05-14",
+        "status": "pending"
+      },
+      {
+        "id": 19,
+        "first_name": "Paul",
+        "last_name": "Scott",
+        "email": "paul.scott@example.com",
+        "phone": "901-234-5684",
+        "company": "Tau Tech",
+        "created_at": "2024-05-14",
+        "status": "converted"
+      },
+      {
+        "id": 20,
+        "first_name": "Quinn",
+        "last_name": "Thompson",
+        "email": "quinn.thompson@example.com",
+        "phone": "012-345-6785",
+        "company": "Upsilon Solutions",
+        "created_at": "2024-05-14",
+        "status": "lost"
+      },
+      {
+        "id": 21,
+        "first_name": "Rachel",
+        "last_name": "Underwood",
+        "email": "rachel.underwood@example.com",
+        "phone": "123-456-7897",
+        "company": "Phi Innovations",
+        "created_at": "2024-05-14",
+        "status": "contacted"
+      },
+      {
+        "id": 22,
+        "first_name": "Sam",
+        "last_name": "Vance",
+        "email": "sam.vance@example.com",
+        "phone": "234-567-8908",
+        "company": "Chi Tech",
+        "created_at": "2024-05-14",
+        "status": "pending"
+      },
+      {
+        "id": 23,
+        "first_name": "Tina",
+        "last_name": "White",
+        "email": "tina.white@example.com",
+        "phone": "345-678-9019",
+        "company": "Psi Solutions",
+        "created_at": "2024-05-14",
+        "status": "converted"
+      },
+      {
+        "id": 24,
+        "first_name": "Umar",
+        "last_name": "Xiong",
+        "email": "umar.xiong@example.com",
+        "phone": "456-789-0130",
+        "company": "Omega Ventures",
+        "created_at": "2024-05-14",
+        "status": "lost"
+      },
+      {
+        "id": 25,
+        "first_name": "Vera",
+        "last_name": "Young",
+        "email": "vera.young@example.com",
+        "phone": "567-890-1241",
+        "company": "Alpha Tech",
+        "created_at": "2024-05-14",
+        "status": "contacted"
+      }
+    ],
+    "meta": {
+      "current_page": 1,
+      "from": 1,
+      "to": 10,
+      "path": "",
+      "per_page": 10,
+      "total": 25
     },
-    {
-      "id": 3,
-      "name": "Alice Johnson",
-      "email": "alice.johnson@example.com",
-      "phone": "345-678-9012",
-      "company": "Tech Solutions"
-    },
-    {
-      "id": 4,
-      "name": "Bob Brown",
-      "email": "bob.brown@example.com",
-      "phone": "456-789-0123",
-      "company": "Innovatech"
-    },
-    {
-      "id": 5,
-      "name": "Charlie Davis",
-      "email": "charlie.davis@example.com",
-      "phone": "567-890-1234",
-      "company": "Global Ventures"
-    },
-    {
-      "id": 6,
-      "name": "Diana Evans",
-      "email": "diana.evans@example.com",
-      "phone": "678-901-2345",
-      "company": "Smart Solutions"
-    },
-    {
-      "id": 7,
-      "name": "Ethan Foster",
-      "email": "ethan.foster@example.com",
-      "phone": "789-012-3456",
-      "company": "NextGen Technologies"
-    },
-    {
-      "id": 8,
-      "name": "Fiona Green",
-      "email": "fiona.green@example.com",
-      "phone": "890-123-4567",
-      "company": "Prime Innovations"
-    },
-    {
-      "id": 9,
-      "name": "George Harris",
-      "email": "george.harris@example.com",
-      "phone": "901-234-5678",
-      "company": "Alpha Tech"
-    },
-    {
-      "id": 10,
-      "name": "Hannah Ingram",
-      "email": "hannah.ingram@example.com",
-      "phone": "012-345-6789",
-      "company": "Beta Enterprises"
-    },
-    {
-      "id": 11,
-      "name": "Ian Jones",
-      "email": "ian.jones@example.com",
-      "phone": "123-456-7891",
-      "company": "Gamma Corp"
-    },
-    {
-      "id": 12,
-      "name": "Julia King",
-      "email": "julia.king@example.com",
-      "phone": "234-567-8902",
-      "company": "Delta Innovations"
-    },
-    {
-      "id": 13,
-      "name": "Kevin Lewis",
-      "email": "kevin.lewis@example.com",
-      "phone": "345-678-9013",
-      "company": "Epsilon Solutions"
-    },
-    {
-      "id": 14,
-      "name": "Lily Martin",
-      "email": "lily.martin@example.com",
-      "phone": "456-789-0124",
-      "company": "Zeta Ventures"
-    },
-    {
-      "id": 15,
-      "name": "Michael Nelson",
-      "email": "michael.nelson@example.com",
-      "phone": "567-890-1235",
-      "company": "Theta Tech"
-    },
-    {
-      "id": 16,
-      "name": "Nina O'Connor",
-      "email": "nina.oconnor@example.com",
-      "phone": "678-901-2346",
-      "company": "Iota Innovations"
-    },
-    {
-      "id": 17,
-      "name": "Oscar Parker",
-      "email": "oscar.parker@example.com",
-      "phone": "789-012-3457",
-      "company": "Kappa Solutions"
-    },
-    {
-      "id": 18,
-      "name": "Paula Quinn",
-      "email": "paula.quinn@example.com",
-      "phone": "890-123-4568",
-      "company": "Lambda Enterprises"
-    },
-    {
-      "id": 19,
-      "name": "Quinn Roberts",
-      "email": "quinn.roberts@example.com",
-      "phone": "901-234-5679",
-      "company": "Mu Tech"
-    },
-    {
-      "id": 20,
-      "name": "Rachel Scott",
-      "email": "rachel.scott@example.com",
-      "phone": "012-345-6790",
-      "company": "Nu Innovations"
-    },
-    {
-      "id": 21,
-      "name": "Samuel Turner",
-      "email": "samuel.turner@example.com",
-      "phone": "123-456-7892",
-      "company": "Xi Solutions"
-    },
-    {
-      "id": 22,
-      "name": "Tina Underwood",
-      "email": "tina.underwood@example.com",
-      "phone": "234-567-8903",
-      "company": "Omicron Corp"
-    },
-    {
-      "id": 23,
-      "name": "Uma Vance",
-      "email": "uma.vance@example.com",
-      "phone": "345-678-9014",
-      "company": "Pi Innovations"
-    },
-    {
-      "id": 24,
-      "name": "Victor White",
-      "email": "victor.white@example.com",
-      "phone": "456-789-0125",
-      "company": "Rho Solutions"
-    },
-    {
-      "id": 25,
-      "name": "Wendy Xiong",
-      "email": "wendy.xiong@example.com",
-      "phone": "567-890-1236",
-      "company": "Sigma Ventures"
-    }
-  ],
-  "meta": {
-    "current_page": 1,
-    "from": 1,
-    "to": 10,
-    "path": "",
-    "per_page": 10,
-    "total": 25
-  },
-  "code": 200
-}
-
+    "code": 200
+  }
 }
